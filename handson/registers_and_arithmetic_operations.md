@@ -291,3 +291,16 @@ $5 = 0xa5
 ```
 
 gdb's stepi command repeats the command as many times as the number passed as the argument. stepi 3 means to execute three instructions.
+
+### Appendix
+We use the "disas" command in gdb to display the assembler code, but by default it is in AT&T notation.
+
+If you want to change to intel notation, run the command as follows.
+
+```
+(gdb) show disassembly-flavor
+The disassembly flavor is "att".
+(gdb) set disassembly-flavor intel
+(gdb) show disassembly-flavor
+The disassembly flavor is "intel".
+```
