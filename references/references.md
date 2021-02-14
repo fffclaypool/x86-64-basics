@@ -1,7 +1,6 @@
-[WIP]
-
-https://software.intel.com/sites/default/files/managed/a4/60/253665-sdm-vol-1.pdf
-
-https://www.mztn.org/lxasm64/amd01.html
-
-https://tanakamura.github.io/pllp/docs/asm_language.html
+- Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 1: Basic Architecture
+    - https://software.intel.com/sites/default/files/managed/a4/60/253665-sdm-vol-1.pdf
+- Linux で64bitアセンブリプログラミング (01)
+    - https://www.mztn.org/lxasm64/amd01.html
+- x86_64 プログラミング入門
+    - https://tanakamura.github.io/pllp/docs/asm_language.html
